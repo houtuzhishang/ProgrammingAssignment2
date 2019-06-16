@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## The first function, makeCacheMatrix creates a matrix whose own and inverted matrix 
+## can be set or retrieved via a set/get function
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -19,6 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## The second function checked whether a inverted matrix has been previously created, if not
+## it will calculate and return it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
